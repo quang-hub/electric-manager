@@ -7,9 +7,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: $dbms.connection}
-    username: ${dbms.username}
-    password: ${dbms.password}
+    url: jdbc:mysql://mysql.railway.internal:3306/railway
+    username: root
+    password: CLhwlfRZQmOFOBSoZiWCPMUFemqubUAL
 
   jpa:
     hibernate:
