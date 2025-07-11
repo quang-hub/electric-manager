@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: ${DBMS_CONNECTION}
     username: ${DBMS_USERNAME}
     password: ${DBMS_PASSWORD}
@@ -18,7 +18,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        dialect: org.hibernate.dialect.MariaDBDialect
+        dialect: org.hibernate.dialect.MySQL8Dialect
 
   messages:
     basename: messages
