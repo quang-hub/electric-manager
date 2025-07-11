@@ -25,15 +25,6 @@ spring:
     encoding: UTF-8
     fallback-to-system-locale: true
 
-  mail:
-    host: ${MAIL_HOST}
-    port: ${MAIL_PORT}
-    username: ${MAIL_USERNAME}
-    password: ${MAIL_PASSWORD}
-    properties:
-      mail.smtp.auth: true
-      mail.smtp.starttls.enable: true
-
 springdoc:
   api-docs:
     enabled: true
